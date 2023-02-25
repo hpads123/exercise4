@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(to bottom, #ff6600 0%, #0033cc 78%);
+    
+}
+
+h1 {
+ text-align: center;
+ font-weight: 50px;
+}
+div {
+    border: 5px solid black;
+    margin-top: 40px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 30px;
+    padding-top: 5px;
+}
+section
+{
+width: 200px;
+}
+h2{
+    text-align: center;
+}
+
+
+.form {
+    background-image: url('shoppingcart.jpeg');
+    width: 500px;
+    height: 700;
+    margin: auto;
+
+}
+.heading {
+    background: linear-gradient(to bottom, #003399 0%, #ff33cc 100%);
+}
+button
+{
+background-color: #cc6699;
+font-size: 50px;
+}

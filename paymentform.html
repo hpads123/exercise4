@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="paymentform.css">
+    <head>
+    </head>
+    <body>
+        
+        <h1>PAYMENT DETAILS</h1>
+        <h2>
+            <mark>SHIPPING INFORMATION</mark>
+        </h2>
+        
+        <br>
+    <section>
+        <b>
+        <form>
+            <label for="fname">First name: </label>
+            <input type="text" id="fname" name="fname" size="40">
+            <br>
+            <br>
+            <label for ="lname"> Last name: <label>
+            <input type="text" id="lname" name="lname" size="40">
+            <br>
+            <br>
+            <form>
+                <label for="address">Shipping Address:</label>
+                <br>
+                <input type="text" id="address" name="your address" size="44" style="font-size: 12pt;">
+                </form>
+                <br>
+                <br>
+                <label for="country">City: </label>
+                <input type="text" id="city" name="city" size="30">
+                <br>
+                <br>
+                <label for="country">Country: </label>
+                <input type="text" id="country" name="country" size="30">
+                <br>
+                <br>
+                <form>
+                    <label for="zip">ZIP:</label>
+                    <input type="text" id="zip" name="zip" maxlength="5" size="5">
+                </form>
+<br>
+<hr></hr>
+                <p>PAYMENT:</p>
+                <input type="radio" id="cod" name="paymentoption" value="Cash on Delivery">
+                <label for="cod">Cash on Delivery</label>
+                <br>
+                <input type="radio" id="card" name="paymentoption" value="Debit or Credit">
+                <label for="card">Debit or Credit</label>
+                <br>
+                <input type="radio" id="discount" name="paymentoption" value="Coupon or Voucher Code">
+                <label for="cod">Coupon or Voucher Code</label>
+                <br>
+                <p>SELECT CARD</p>
+                <label for="card">TYPE OF CARD:</label>
+                <select name="card" id="card">
+                <option value="card">Visa</option>
+                <option value="card">Mastercard</option>
+                <option value="card">American Express</option>
+                <option value="card">Discover</option>
+                </select>
+                <br>
+                <br>
+                <form>
+                    <label for="fname">First name: </label>
+                    <input type="text" id="fname" name="fname">
+                    &nbsp;
+                    <label for ="lname"> Last name: <label>
+                    <input type="text" id="lname" name="lname">
+                    </form>
+                    <br> 
+                    <br>
+                    <form>
+                    <label for="cardnum">Card Number: </label>
+                    <input type="text" id="cardnumber" name="cardnumber" size="51">
+                </form>
+                <br>
+                <form>
+                    <label for="date">Expiration:</label>
+             <input type="month" id="month" name="month">
+             &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" name="cvv" maxlength="4" size="4">
+                </form>
+                <br>
+                <form>
+                    <label for="address">Billing Address:</label>
+                    <br>
+                    <input type="text" id="address" name="your address" size="43">
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <label for="apt">Apartment :</label>
+                    <input type="text" id="apt" name="apt" maxlength="4" size="4">
+                    <br>
+                    <br>
+                    <label for="zip">ZIP:</label> <br>
+                    <input type="text" id="zip" name="zip" maxlength="5" size="5">
+                    <br>
+                    <br>
+                </form>
+            </section>
+            <br>
+            <br>
+                <div>
+                <form action="paymentform.html">
+                    <button onclick="checkout.html">
+                    Continue
+                    </button> 
+                </form>
+            </b>
+            </div>
+            </br>
+        
+    </body>
+</html>

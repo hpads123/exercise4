@@ -1,0 +1,59 @@
+h1, .books
+{
+font-size: 50px;
+line-height: 1px;
+text-align: center;
+color:beige;
+}
+ body
+ {
+    background: linear-gradient(to bottom, #003399 0%, #ff33cc 100%);
+ }
+.mockingbird
+{
+    line-height:10px;
+    font-size: 20px;
+color: solid black;
+
+}
+
+.greatgatsby
+{
+line-height: 10px;
+font-size: 20px;
+
+}
+
+.huck
+{
+    line-height: 10px;
+    font-size: 20px;
+}
+
+.a1984
+{
+    line-height: 10px;
+    font-size: 20px;
+}
+div {
+text-align: center;
+}
+
+a 
+{
+    color: white;
+}
+.cart
+{
+    background-color: blue;
+    font-size: larger;
+}
+.wish
+{
+    background-color: orange;
+    font-size: larger;
+}
+
+img {
+    border: 10px solid black;
+}

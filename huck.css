@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  div{
+      margin-right: 20px;
+      margin-left: 10px;
+      border: 10px solid black;
+    float: left;
+  }
+  body {
+    background: linear-gradient(to bottom, #ffcc66 0%, #ffff99, #ffffcc 100%)
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  .text
+  {
+    font-size: 20px;
+  }

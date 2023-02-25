@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(to bottom, #0066ff 0%, #cc33ff 78%);
+}
+h1 {
+    font-size: 50px;
+}
+section {
+    border: 5px solid black;
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-image: url('delivery.jpeg');
+}
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+hr {
+    size: 100px;
+}
+mark {
+    background-color: #ff9966;
+}
+
+div {
+    text-align: center;
+}
+
+button{
+    background-color: #808080;
+    font-size: 50px;
+}
+

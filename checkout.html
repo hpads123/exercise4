@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="checkout.css">
+    <head>
+       <style>
+        img {
+            position:center;
+            z-index: -1;
+        }
+        </style>
+<h1>CHECK OUT FORM</h1>
+    </head>
+    <body>
+    
+        <div class="form">
+        <br>
+        <br>
+        <b>
+        <form>
+        <label for="fullname">Name:</label>
+        <br>
+        <input type="text" id="fullname" name="your name" placeholder="full name" size="40" style="font-size: 15pt;">
+        </form>
+        <br>
+            <form>
+            <label for="address">Address:</label>
+            <br>
+            <input type="text" id="address" name="your address" placeholder="your address" size="40" style="font-size: 15pt;">
+            </form>
+            <br>
+                <form>
+                <label for="contact">Contact Number:</label>
+                <br>
+                <input type="number" id="contactnumber" name="your number" placeholder="your contact number" size="30" style="font: size 15pt;">
+                </form>
+                <br>
+                <form>
+                    <label for="quantity">Quantity:</label>
+                    <br>
+                    <input type="text" id="quantity" name="quantity" maxlength="4" size="4">
+                </form>
+                <br>
+                <b>
+                <form>
+                    <label for="date">Delivery Date:</label>
+                    <br>
+                    <input type="date" id="date" name="date" placeholder="select date">
+                </form>
+<br>
+                <p>MODE OF PAYMENT:</p>
+                <input type="radio" id="cod" name="paymentoption" value="Cash on Delivery">
+                <label for="cod">Cash on Delivery</label>
+                <br>
+                <input type="radio" id="card" name="paymentoption" value="Debit or Credit">
+                <label for="card">Debit or Credit</label>
+                <br>
+                <input type="radio" id="discount" name="paymentoption" value="Coupon or Voucher Code">
+                <label for="cod">Coupon or Voucer Code</label>
+                </b>
+            </br>
+        </b>
+    
+</div>
+<br>
+<h2>
+<form action="paymentform.html">
+    <button onclick="checkout.html">
+    Proceed to Check Out
+    </button>
+</form>
+</h2>     
+        
+
+        
+
+    </body>
+
+</html>
